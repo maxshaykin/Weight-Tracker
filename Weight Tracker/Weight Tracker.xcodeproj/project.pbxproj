@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6F0FBB32C02588A009067E9 /* Weight_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F0FBB22C02588A009067E9 /* Weight_TrackerApp.swift */; };
+		D6F0FBB52C02588A009067E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F0FBB42C02588A009067E9 /* ContentView.swift */; };
+		D6F0FBB72C02588B009067E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F0FBB62C02588B009067E9 /* Assets.xcassets */; };
+		D6F0FBBA2C02588B009067E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F0FBB92C02588B009067E9 /* Preview Assets.xcassets */; };
+		D6F0FBC42C02588B009067E9 /* Weight_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F0FBC32C02588B009067E9 /* Weight_TrackerTests.swift */; };
+		D6F0FBCE2C02588B009067E9 /* Weight_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F0FBCD2C02588B009067E9 /* Weight_TrackerUITests.swift */; };
+		D6F0FBD02C02588B009067E9 /* Weight_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F0FBCF2C02588B009067E9 /* Weight_TrackerUITestsLaunchTests.swift */; };
+		D6F0FBDD2C027A43009067E9 /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F0FBDC2C027A43009067E9 /* LearnView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F0FBC02C02588B009067E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F0FBA72C02588A009067E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F0FBAE2C02588A009067E9;
+			remoteInfo = "Weight Tracker";
+		};
+		D6F0FBCA2C02588B009067E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F0FBA72C02588A009067E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F0FBAE2C02588A009067E9;
+			remoteInfo = "Weight Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6F0FBAF2C02588A009067E9 /* Weight Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weight Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F0FBB22C02588A009067E9 /* Weight_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_TrackerApp.swift; sourceTree = "<group>"; };
+		D6F0FBB42C02588A009067E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6F0FBB62C02588B009067E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6F0FBB92C02588B009067E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6F0FBBF2C02588B009067E9 /* Weight TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weight TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F0FBC32C02588B009067E9 /* Weight_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_TrackerTests.swift; sourceTree = "<group>"; };
+		D6F0FBC92C02588B009067E9 /* Weight TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weight TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F0FBCD2C02588B009067E9 /* Weight_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_TrackerUITests.swift; sourceTree = "<group>"; };
+		D6F0FBCF2C02588B009067E9 /* Weight_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6F0FBDC2C027A43009067E9 /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F0FBAC2C02588A009067E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F0FBBC2C02588B009067E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F0FBC62C02588B009067E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6F0FBA62C02588A009067E9 = {
+			isa = PBXGroup;
+			children = (
+				D6F0FBDC2C027A43009067E9 /* LearnView.swift */,
+				D6F0FBB12C02588A009067E9 /* Weight Tracker */,
+				D6F0FBC22C02588B009067E9 /* Weight TrackerTests */,
+				D6F0FBCC2C02588B009067E9 /* Weight TrackerUITests */,
+				D6F0FBB02C02588A009067E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F0FBB02C02588A009067E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F0FBAF2C02588A009067E9 /* Weight Tracker.app */,
+				D6F0FBBF2C02588B009067E9 /* Weight TrackerTests.xctest */,
+				D6F0FBC92C02588B009067E9 /* Weight TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F0FBB12C02588A009067E9 /* Weight Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				D6F0FBB22C02588A009067E9 /* Weight_TrackerApp.swift */,
+				D6F0FBB42C02588A009067E9 /* ContentView.swift */,
+				D6F0FBB62C02588B009067E9 /* Assets.xcassets */,
+				D6F0FBB82C02588B009067E9 /* Preview Content */,
+			);
+			path = "Weight Tracker";
+			sourceTree = "<group>";
+		};
+		D6F0FBB82C02588B009067E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6F0FBB92C02588B009067E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6F0FBC22C02588B009067E9 /* Weight TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F0FBC32C02588B009067E9 /* Weight_TrackerTests.swift */,
+			);
+			path = "Weight TrackerTests";
+			sourceTree = "<group>";
+		};
+		D6F0FBCC2C02588B009067E9 /* Weight TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F0FBCD2C02588B009067E9 /* Weight_TrackerUITests.swift */,
+				D6F0FBCF2C02588B009067E9 /* Weight_TrackerUITestsLaunchTests.swift */,
+			);
+			path = "Weight TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F0FBAE2C02588A009067E9 /* Weight Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F0FBD32C02588B009067E9 /* Build configuration list for PBXNativeTarget "Weight Tracker" */;
+			buildPhases = (
+				D6F0FBAB2C02588A009067E9 /* Sources */,
+				D6F0FBAC2C02588A009067E9 /* Frameworks */,
+				D6F0FBAD2C02588A009067E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weight Tracker";
+			productName = "Weight Tracker";
+			productReference = D6F0FBAF2C02588A009067E9 /* Weight Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6F0FBBE2C02588B009067E9 /* Weight TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F0FBD62C02588B009067E9 /* Build configuration list for PBXNativeTarget "Weight TrackerTests" */;
+			buildPhases = (
+				D6F0FBBB2C02588B009067E9 /* Sources */,
+				D6F0FBBC2C02588B009067E9 /* Frameworks */,
+				D6F0FBBD2C02588B009067E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F0FBC12C02588B009067E9 /* PBXTargetDependency */,
+			);
+			name = "Weight TrackerTests";
+			productName = "Weight TrackerTests";
+			productReference = D6F0FBBF2C02588B009067E9 /* Weight TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6F0FBC82C02588B009067E9 /* Weight TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F0FBD92C02588B009067E9 /* Build configuration list for PBXNativeTarget "Weight TrackerUITests" */;
+			buildPhases = (
+				D6F0FBC52C02588B009067E9 /* Sources */,
+				D6F0FBC62C02588B009067E9 /* Frameworks */,
+				D6F0FBC72C02588B009067E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F0FBCB2C02588B009067E9 /* PBXTargetDependency */,
+			);
+			name = "Weight TrackerUITests";
+			productName = "Weight TrackerUITests";
+			productReference = D6F0FBC92C02588B009067E9 /* Weight TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F0FBA72C02588A009067E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D6F0FBAE2C02588A009067E9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D6F0FBBE2C02588B009067E9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D6F0FBAE2C02588A009067E9;
+					};
+					D6F0FBC82C02588B009067E9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D6F0FBAE2C02588A009067E9;
+					};
+				};
+			};
+			buildConfigurationList = D6F0FBAA2C02588A009067E9 /* Build configuration list for PBXProject "Weight Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F0FBA62C02588A009067E9;
+			productRefGroup = D6F0FBB02C02588A009067E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F0FBAE2C02588A009067E9 /* Weight Tracker */,
+				D6F0FBBE2C02588B009067E9 /* Weight TrackerTests */,
+				D6F0FBC82C02588B009067E9 /* Weight TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F0FBAD2C02588A009067E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F0FBBA2C02588B009067E9 /* Preview Assets.xcassets in Resources */,
+				D6F0FBB72C02588B009067E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F0FBBD2C02588B009067E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F0FBC72C02588B009067E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F0FBAB2C02588A009067E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F0FBB52C02588A009067E9 /* ContentView.swift in Sources */,
+				D6F0FBDD2C027A43009067E9 /* LearnView.swift in Sources */,
+				D6F0FBB32C02588A009067E9 /* Weight_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F0FBBB2C02588B009067E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F0FBC42C02588B009067E9 /* Weight_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F0FBC52C02588B009067E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F0FBCE2C02588B009067E9 /* Weight_TrackerUITests.swift in Sources */,
+				D6F0FBD02C02588B009067E9 /* Weight_TrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F0FBC12C02588B009067E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F0FBAE2C02588A009067E9 /* Weight Tracker */;
+			targetProxy = D6F0FBC02C02588B009067E9 /* PBXContainerItemProxy */;
+		};
+		D6F0FBCB2C02588B009067E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F0FBAE2C02588A009067E9 /* Weight Tracker */;
+			targetProxy = D6F0FBCA2C02588B009067E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6F0FBD12C02588B009067E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6F0FBD22C02588B009067E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F0FBD42C02588B009067E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weight Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = VHJ2F8M7V6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Max.Weight-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6F0FBD52C02588B009067E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weight Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = VHJ2F8M7V6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Max.Weight-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6F0FBD72C02588B009067E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHJ2F8M7V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Max.Weight-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weight Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weight Tracker";
+			};
+			name = Debug;
+		};
+		D6F0FBD82C02588B009067E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHJ2F8M7V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Max.Weight-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weight Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weight Tracker";
+			};
+			name = Release;
+		};
+		D6F0FBDA2C02588B009067E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHJ2F8M7V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Max.Weight-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weight Tracker";
+			};
+			name = Debug;
+		};
+		D6F0FBDB2C02588B009067E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHJ2F8M7V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Max.Weight-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weight Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F0FBAA2C02588A009067E9 /* Build configuration list for PBXProject "Weight Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F0FBD12C02588B009067E9 /* Debug */,
+				D6F0FBD22C02588B009067E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F0FBD32C02588B009067E9 /* Build configuration list for PBXNativeTarget "Weight Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F0FBD42C02588B009067E9 /* Debug */,
+				D6F0FBD52C02588B009067E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F0FBD62C02588B009067E9 /* Build configuration list for PBXNativeTarget "Weight TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F0FBD72C02588B009067E9 /* Debug */,
+				D6F0FBD82C02588B009067E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F0FBD92C02588B009067E9 /* Build configuration list for PBXNativeTarget "Weight TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F0FBDA2C02588B009067E9 /* Debug */,
+				D6F0FBDB2C02588B009067E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F0FBA72C02588A009067E9 /* Project object */;
+}
